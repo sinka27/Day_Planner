@@ -5,7 +5,7 @@ Work Day Scheduler is a simple calendar application that allows a user to save e
 A daily planner can help employees manage their time effectively.
 
 ## Problems Solved
-* When user will open the planner, the current day is displayed at the top of the calendar.
+* When user will open the planner, they will be able to see current day and date displayed at the top of the calendar.
 * On scrolling down, user is presented with timeblocks for standard business hours.
 * Each timeblock is color coded to indicate whether it is in the past, present, or future.
 * When the user clicks into a timeblock, they can enter an event. 
@@ -22,12 +22,12 @@ A daily planner can help employees manage their time effectively.
 * Git
 
 ## Links
-* Github source code:
-* Github deployed page:
+* Github source code: https://github.com/sinka27/Day_Planner
+* Github deployed page: https://sinka27.github.io/Day_Planner/
 
 ## Sample Video
-The following animation demonstrates the application functionality:
-![A user clicks on slots on the color-coded calendar and edits the events.](./)
+
+![A user clicks on slots on the color-coded calendar and edits the events.](./dayplanner.gif)
 
 ## Credits
 * Parul Raj
