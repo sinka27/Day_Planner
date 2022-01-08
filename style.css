@@ -16,7 +16,7 @@ textarea {
 /* Jumbotron */
 .jumbotron {
   text-align: center;
-  background-image: linear-gradient(to bottom right,rgb(250, 206, 206),rgb(247, 247, 217));
+  background-image: linear-gradient(to bottom right, rgb(250, 206, 206), rgb(247, 247, 217));
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
@@ -50,17 +50,35 @@ textarea {
 }
 
 /*Styling Past, Present and future rows of time*/
-.past {
+/* PAST */
+.past{
+  background-color: #d3d3d3;
+  color: black;
+}
+/* Keeping same background color when clicking input area */
+.past:focus{
   background-color: #d3d3d3;
   color: black;
 }
 
+/* PRESENT */
 .present {
   background-color: #ff6961;
   color: black;
 }
+/* Keeping same background color when clicking input area */
+.present:focus {
+  background-color: #ff6961;
+  color: black;
+}
 
+/* FUTURE */
 .future {
+  background-color: #77dd77;
+  color: black;
+}
+/* Keeping same background color when clicking input area */
+.future:focus {
   background-color: #77dd77;
   color: black;
 }
@@ -77,4 +95,5 @@ textarea {
 .saveBtn i:hover {
   font-size: 30px;
   transition: all 0.3s ease-in-out;
+  color: black;
 }
